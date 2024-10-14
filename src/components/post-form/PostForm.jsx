@@ -120,44 +120,16 @@ export default function PostForm({ post }) {
             </div>
         </form>
     );
-}
+}  
 
-// import React, { useState } from 'react';
 
-// const PostForm = () => {
-//     const initialState = { title: '', content: '' };
-//     const [formState, setFormState] = useState(initialState);
 
-//     const handleChange = (event) => {
-//         const { name, value } = event.target;
-//         setFormState({ ...formState, [name]: value });
-//     };
 
-//     const handleSubmit = (event) => {
-//         event.preventDefault();
-//         // Your form submission logic here
-//         console.log('Form submitted:', formState);
-//         setFormState(initialState); // Reset form state
-//     };
 
-//     return (
-//         <form onSubmit={handleSubmit}>
-//             <input
-//                 type="text"
-//                 name="title"
-//                 value={formState.title}
-//                 onChange={handleChange}
-//                 placeholder="Title"
-//             />
-//             <textarea
-//                 name="content"
-//                 value={formState.content}
-//                 onChange={handleChange}
-//                 placeholder="Content"
-//             />
-//             <button type="submit">Submit</button>
-//         </form>
-//     );
-// };
 
-// export default PostForm;
+
+
+
+
+
+
