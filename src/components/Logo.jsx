@@ -8,4 +8,4 @@ function Logo({ width = '100px' }) {
   );
 }
 
-export default Logo
+export default Logo;
